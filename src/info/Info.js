@@ -119,7 +119,7 @@ export const info = {
 			image: mock1,
 		},
 		{
-			title: 'StubCrud -Event Registration App',
+			title: 'StubCrud - Event Registration App',
 			live: 'https://stubcrudclient.onrender.com/',
 			source: 'https://github.com/Melendezj18/Stub-Crud',
 			image: mock2,
