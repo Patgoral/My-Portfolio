@@ -39,7 +39,7 @@ export const info = {
             text: 'based in Atlanta, GA'
         },
         {
-            emoji: "💼",
+            emoji: "💻",
             text: "junior software engineer"
         },
         {
