@@ -55,6 +55,7 @@ export const info = {
 			label: '',
 		},
 		{
+            
 			icon: '',
 			label: '',
 		},
