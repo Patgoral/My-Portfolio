@@ -48,6 +48,10 @@ export const info = {
 			emoji: '📧',
 			text: 'patgoral@gmail.com',
 		},
+        {
+			emoji: '📂',
+			text: <a href='resume'>Resume</a>,
+		},
 	],
 	socials: [
 		{
@@ -55,9 +59,8 @@ export const info = {
 			label: '',
 		},
 		{
-            
 			icon: '',
-			label: '',
+			label: 'resume',
 		},
 		{
 			link: 'https://www.linkedin.com/in/patgoral/',
@@ -137,5 +140,6 @@ export const info = {
 			source: 'https://github.com/Patgoral/slot-machine-project',
 			image: mock4,
 		},
+      
 	],
 }
