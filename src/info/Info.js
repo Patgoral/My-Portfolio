@@ -48,7 +48,7 @@ export const info = {
 
 		{
 			emoji: '📧',
-			text: <a href="mailto:patgoral@gmail.com">'patgoral@gmail.com',</a>
+			text: <a href="mailto:patgoral@gmail.com">patgoral@gmail.com,</a>
 		},
         {
 			emoji: '📂',
