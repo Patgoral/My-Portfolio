@@ -3,6 +3,8 @@ import mock1 from '../img/mock1.png'
 import mock2 from '../img/mock2.png'
 import mock3 from '../img/mock3.png'
 import mock4 from '../img/mock4.png'
+import {Link} from "react-router-dom";
+
 
 /* Hi there! Thanks for checking out my portfolio template. Be sure to read the comments to get a better understanding of
 how to make this template work best for you! */
@@ -50,7 +52,7 @@ export const info = {
 		},
         {
 			emoji: '📂',
-			text: <a href='resume'>Resume</a>,
+			text: <Link to="/resume">Resume</Link>,
 		},
 	],
 	socials: [
