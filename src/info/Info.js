@@ -119,8 +119,8 @@ export const info = {
 	portfolio: [
 		// This is where your portfolio projects will be detailed
 		{
-			title: 'Trackr - Adventure Tracking App',
-			live: 'https://trackr-client.onrender.com/', //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
+			title: 'Friedclay.com - Adventure Tracking App',
+			live: 'https://friedclay.com/', //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
 			source: 'https://github.com/Patgoral/TRACKR-Client', // this should be a link to the **repository** of the project, where the code is hosted.
 			image: mock1,
 		},
