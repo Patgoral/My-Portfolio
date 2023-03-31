@@ -6,32 +6,20 @@ import mock4 from '../img/mock4.png'
 import {Link} from "react-router-dom";
 
 
-/* Hi there! Thanks for checking out my portfolio template. Be sure to read the comments to get a better understanding of
-how to make this template work best for you! */
+
 
 export let colors = ['rgb(0,255,164)', 'rgb(166,104,255)']
-/*
-I highly recommend using a gradient generator like https://gradientgenerator.paytonpierce.dev/ to generate a pair of colors that you like.
-These colors will be used to style your name on the homepage, the background of your picture, and some other accents throughout
-the site.
- */
 
-/*
-So let's get started! Some of the info below is pretty self-explanatory, like 'firstName' and 'bio'. I'll try to explain anything
-that might not be obvious right off the bat :) I recommend looking at the template example live using "npm start" to get an idea
-of what each of the values mean.
- */
 
 export const info = {
 	firstName: 'Pat',
 	lastName: 'Goral',
-	initials: 'PG', // the example uses first and last, but feel free to use three or more if you like.
+	initials: 'PG', 
 	position: 'a Full Stack Developer',
-	selfPortrait: self, // don't change this unless you want to name your self-portrait in the "img" folder something else!
-	gradient: `-webkit-linear-gradient(135deg, ${colors})`, // don't change this either
+	selfPortrait: self, 
+	gradient: `-webkit-linear-gradient(135deg, ${colors})`, 
 	baseColor: colors[0],
 	miniBio: [
-		// these are just some "tidbits" about yourself. You can look at mine https://paytonjewell.github.io/#/ for an example if you'd like
 		{
 			emoji: '💻',
 			text: 'Junior Software Engineer',
@@ -75,10 +63,9 @@ export const info = {
 			label: 'github',
 		},
 
-		// Feel free to remove any of these that you don't have. I'll write an FAQ on how to add new ones later, let me know if you have a request for an icon!
-		// Just change the links so that they lead to your social profiles.
+	
 	],
-	bio: "Hi, I'm Pat, a computer and cycling enthusiast who loves a good challenge. With my experience in problem-solving within the cycling industry, I've developed strong critical thinking skills that I'm now applying to software development. I'm enthusiastic about every project, big or small, and always strive to find the best solution, whether working alone or in a team.",
+	bio: "I'm a passionate problem solver with a lifelong interest in software and bicycles. Skilled in critical thinking and finding creative solutions, I have extensive experience solving complex problems from my time in the cycling world. I approach software development projects with enthusiasm and unwavering commitment to finding the best possible solution.",
 	skills: {
 		proficientWith: [
 			'JavaScript',
@@ -113,15 +100,13 @@ export const info = {
 			label: 'Cooking',
 			emoji: '🌶',
 		},
-		// Same as above, change the emojis to match / relate to your hobbies or interests.
-		// You can also remove the emojis if you'd like, I just think they look cute :P
+		
 	],
 	portfolio: [
-		// This is where your portfolio projects will be detailed
 		{
 			title: 'Friedclay.com - Adventure Tracking App',
-			live: 'https://friedclay.com/', //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
-			source: 'https://github.com/Patgoral/TRACKR-Client', // this should be a link to the **repository** of the project, where the code is hosted.
+			live: 'https://friedclay.com/', 
+			source: 'https://github.com/Patgoral/TRACKR-Client', 
 			image: mock1,
 		},
 		{
